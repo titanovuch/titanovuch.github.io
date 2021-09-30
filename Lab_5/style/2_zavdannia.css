@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.abzac_1{
+    background-color: #000;
+    color: red;
+    width: 50%;
+    border: red dotted 3px;
+    overflow: hidden;
+    position: relative;
+    left: 60px;
+}
+
+.abzac_2{
+    background-color: yellow;
+    color: black;
+    width: 50%;
+    border: black double 5px;
+    overflow: hidden;
+    position: relative;
+    left: 120px;
+}
+
+.abzac_3{
+    background-color: chartreuse;
+    color: darkturquoise;
+    width: 50%;
+    border: darkturquoise groove 3px;
+    overflow: hidden;
+    position: relative;
+    left: 180px;
+}

@@ -1,0 +1,40 @@
+body{
+    background-image: url(img/bg_menu.gif);
+}
+
+.all{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 50%;
+    border: red, double, 3px;
+    height: 1200px;
+}
+
+h4{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.right, .left{
+    text-indent: 15px;
+    display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1 1 80px  ;
+	height: 48%;
+    margin: 10px;
+    margin-top: 100px;
+    position: relative;
+    overflow:scroll;
+}
+
+.right {
+    background-image: url(img/bg_menu.gif);
+    width: 600px;
+}
+
+.left{
+    width:400px;
+}

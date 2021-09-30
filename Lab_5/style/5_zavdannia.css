@@ -1,0 +1,43 @@
+.d1 {
+  display: inline-block;
+  vertical-align: top;
+  border: black 1px solid;
+  width: 90%;
+  background-color: blue;
+  margin-left: 5%;
+}
+
+.d2 {
+  display: inline-block;
+  border: black 1px solid;
+  width: 30%;
+  margin-left: 5%;
+  background-color: yellow;
+}
+
+.d3 {
+  display: inline-block;
+  border: black 1px solid;
+  width: 90%;
+  background-color: blue;
+  margin-left: 5%;
+}
+
+.d4 {
+  display: inline-block;
+  border: black 1px solid;
+  width: 30%;
+  margin-left: -5px;
+  background-color: white;
+  height: 87px;
+  margin-bottom: -22px;
+  overflow-y: overlay;
+}
+
+.d5 {
+    display: inline-block;
+    border: black 1px solid;
+    width: 569px;
+    margin-left: -5px;
+    background-color: yellow;
+}

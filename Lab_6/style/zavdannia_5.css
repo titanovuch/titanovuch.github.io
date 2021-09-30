@@ -1,0 +1,68 @@
+.d1 {
+  display: inline-block;
+  vertical-align: top;
+  border: black 1px solid;
+  width: 90%;
+  background-color: blue;
+  margin-left: 5%;
+}
+
+.d2 {
+  display: inline-block;
+  border: black 1px solid;
+  width: 30%;
+  margin-left: 5%;
+  background-color: yellow;
+}
+
+.d3 {
+  display: inline-block;
+  border: black 1px solid;
+  width: 90%;
+  background-color: blue;
+  margin-left: 5%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.d4 {
+  display: inline-block;
+  border: black 1px solid;
+  width: 30%;
+  margin-left: -5px;
+  background-color: white;
+  height: 87px;
+  margin-bottom: -22px;
+  overflow-y: overlay;
+  background: linear-gradient(blue, pink);
+}
+
+div {
+  outline: solid;
+  resize: both;
+  cursor: pointer;
+  caret-color: red;
+  border-radius: 10px/20px;
+  text-decoration-line: underline;
+}
+
+.d5 {
+  display: inline-block;
+  border: black 1px solid;
+  width: 569px;
+  margin-left: -5px;
+  background-color: white;
+}
+
+input {
+  caret-color: auto;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input.custom {
+  caret-color: red;
+}
+
+p.custom {
+  caret-color: green;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/zavdannia_2.css" />
+    <title>2 Завдання</title>
+  </head>
+  <body>
+    <h3>1 Завдання</h3>
+    <form action="../js/script.js" method="get">
+      <fieldset>
+        Однорядкове текстове поле: <input type="text" /> <br />
+        <br />
+        Багаторядкове текстове поле: <textarea></textarea> <br /><br />
+        <p>
+          <strong>Логін:</strong>
+          <input maxlength="25" size="40" name="login" />
+        </p>
+        <p>
+          <strong>Пароль:</strong>
+          <input type="password" maxlength="25" size="40" name="password" />
+        </p>
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <input type="range" id="volume" name="volume" min="0" max="11" />
+        <label for="volume">Volume</label>
+        <br /><br />
+        Чоловік <input type="radio" name="sex" value="male" checked /> <br />
+        Жінка
+        <input type="radio" name="sex" value="female" /> <br />
+        <br />
+        Про себе: <br />
+        <input type="checkbox" name="type1" value="low" />Менше 18<br />
+        <input type="checkbox" name="type2" value="2old" />Від 18 до 35<br />
+        <input type="checkbox" name="type3" value="high" />Більше 35<br />
+      </fieldset>
+      <p>
+        <select>
+          <optgroup label="Колір">
+            <option value="c1">Апельсиновий</option>
+            <option value="c2">Лимонний</option>
+            <option value="c3">Персиковий</option>
+          </optgroup>
+          <optgroup label="Тон">
+            <option value="s1">Світлий</option>
+            <option value="s2">Нормальний</option>
+            <option value="s3">Темний</option>
+          </optgroup>
+        </select>
+      </p>
+      <br /><br />
+      <select name="“day”" multiple>
+        <option value="Friday" selected>П'ятниця</option>
+        <option value="Saturday" selected>Субота</option>
+        <option value="Sunday">Неділя</option>
+      </select>
+      <br /><br />
+      <input type="reset" value="Очистити форму" />
+      <br /><br />
+      <input
+        type="button"
+        value="Тицьни на мене!"
+        onClick='alert("О, ти настинув на мене)")'
+      />
+    </form>
+    <br />
+    <br />
+    <p class="lorem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minima earum
+      omnis. Ipsum doloribus, in tempora ratione quae ab dolor. Impedit sequi
+      inventore aliquam harum error saepe magni corporis optio? Lorem ipsum
+      dolor, sit amet consectetur adipisicing elit. Obcaecati, molestias
+      nostrum. Blanditiis a quae amet, cupiditate quisquam ipsa! Nemo libero
+      explicabo, reiciendis ab sapiente deleniti quos suscipit? Soluta, ipsam
+      pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+      minima earum omnis. Ipsum doloribus, in tempora ratione quae ab dolor.
+      Impedit sequi inventore aliquam harum error saepe magni corporis optio?
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati,
+      molestias nostrum. Blanditiis a quae amet, cupiditate quisquam ipsa! Nemo
+      libero explicabo, reiciendis ab sapiente deleniti quos suscipit? Soluta,
+      ipsam pariatur.
+    </p>
+    <br />
+    <br />
+    <ul>
+      <li>Чебурашка</li>
+      <li>Крокодил Гена</li>
+      <li>Шапокляк</li>
+      <li>Криса Марина</li>
+    </ul>
+    <br />
+    <br />
+    <blockquote>
+      Ніколи не опускай руки. Запам'ятай - якщо це робили до тебе, то і ти
+      зможеш, а якщо ні - то ти перший
+    </blockquote>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  background: url(../img/pattern.png);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.card {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px #ccc;
+  border-radius: 10px;
+}
+
+.card-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 20px;
+  text-align: center;
+  color: #8bb7eb;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-subtitle {
+  font-size: 18px;
+  color: #6d8093;
+}
+
+.spysok {
+  font-size: 14px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+#card {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 5px 10px rgb(36, 35, 35);
+  border-radius: 10px;
+}
+
+#card-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#card-title {
+  font-size: 20px;
+  text-align: center;
+  color: #eb8bde;
+}
+
+#card-text {
+  font-size: 14px;
+  color: #fff;
+}
+
+#card-subtitle {
+  font-size: 18px;
+  color: #d76aec;
+}
+
+#spysok {
+  font-size: 14px;
+  padding-left: 0;
+  list-style-position: inside;
+  color: #fff;
+}
+
+a:link {
+  color: aqua;
+}
+
+a[href="mailto:titantitanovuch@gmail.com"] {
+  color: brown;
+}
+
+.card1 {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 5px 10px rgb(255, 139, 139);
+  border-radius: 10px;
+}
+
+img[data-filetype="image"] {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.card-title1 {
+  font-size: 20px;
+  text-align: center;
+  color: #96eb8b;
+}
+
+.card-text1 {
+  font-size: 14px;
+}
+
+.card-subtitle1 {
+  font-size: 18px;
+  color: #239163;
+}
+
+.spysok1 {
+  font-size: 14px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.card2 {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(255, 166, 0);
+  box-shadow: 0 5px 10px rgb(255, 224, 139);
+  border-radius: 10px;
+}
+
+img[data-filetype="image"] {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.card-title2 {
+  font-size: 20px;
+  text-align: center;
+  color: #90eb29;
+}
+
+a[data-info~="text2"] {
+  font-size: 14px;
+}
+
+.card-subtitle2 {
+  font-size: 18px;
+  color: #9ea02d;
+}
+
+.spysok2 {
+  font-size: 14px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.card3 {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(231, 87, 166);
+  box-shadow: 0 5px 10px rgb(240, 111, 111);
+  border-radius: 10px;
+}
+
+.card-photo3 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0cm;
+  border-radius: 50%;
+}
+
+.card-title3 {
+  font-size: 20px;
+  text-align: left;
+  color: #8bb7eb;
+}
+
+.card-text3 {
+  font-size: 14px;
+}
+
+.card-subtitle3 {
+  font-size: 18px;
+  color: #2dca4f;
+}
+
+.spysok3 {
+  font-size: 14px;
+  padding-left: 0;
+  list-style-position: inside;
+}

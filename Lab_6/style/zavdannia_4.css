@@ -1,0 +1,42 @@
+input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  form:invalid {
+    border: 5px solid #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  form:valid {
+    border: 5px solid #00ff00;
+  }
+  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+
+  .red-input:focus {
+    color: red;
+  }
+  
+  .lime-input:focus {
+    color: lime;
+  }
+
+  main :only-of-type {
+    color: red;
+  }
+
+  .box {
+    background: red;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .box:empty {
+    background: lime;
+  }

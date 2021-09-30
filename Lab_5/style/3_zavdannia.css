@@ -1,0 +1,100 @@
+.p1 {
+  position: absolute;
+  right: 50%;
+  background-color: burlywood;
+}
+
+.p2 {
+  position: relative;
+  top: 50px;
+  background-color: cadetblue;
+}
+
+.p3 {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: cornsilk;
+}
+
+.p4 {
+  position: static;
+  background-color: darkgray;
+}
+
+.f1 {
+  float: left;
+  background-color: darkkhaki;
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 20px;
+  width: 40%;
+}
+
+.f2 {
+  float: right;
+  background-color: chocolate;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 20px;
+  width: 40%;
+}
+
+.f3 {
+  float: none;
+  background-color: darkgreen;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 20px;
+  width: 40%;
+}
+
+.f4 {
+  float: inline-end;
+  background-color: darksalmon;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 20px;
+  width: 40%;
+}
+
+.f5 {
+  float: inline-start;
+  background-color: darkslateblue;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 20px;
+  width: 40%;
+}
+
+.c1 {
+  clear: left;
+}
+
+.c2 {
+  clear: right;
+}
+
+.c3 {
+  clear: none;
+}
+
+.c4 {
+  clear: inherit;
+}
+
+.c5 {
+  clear: both;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+.z2 {
+  z-index: inherit;
+}
+
+.z3{
+    z-index: auto;
+}
