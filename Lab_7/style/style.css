@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Lato-Medium;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+
+div.col.logo {
+  padding-top: 300px;
+}
+
+h1.text-center {
+  font-family: Lato-Medium;
+}
+.page-header .pull-left {
+  position: absolute;
+  left: 15px;
+}
+.page-header .pull-right {
+  position: absolute;
+  right: 15px;
+}
+
+
