@@ -1,0 +1,44 @@
+.button1{
+    display: inline-block;
+    border: 3px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    margin:  0px  15px  15px  0px ;
+    padding: 15px 20px;
+    vertical-align: top;
+    text-transform: uppercase;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button1:hover{
+    color: red;
+    background-color: black;
+}   
+
+a {text-decoration: none;  } 
+
+.main_container{
+    display:flex;
+    padding: 0px 15px 0px 5px;
+}
+
+.phon{
+    background-color: #FFB6C1;
+}
+
+
+.block__title{
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  color: pink;
+  cursor: pointer;
+  
+}
+
+.block__text{
+    font-family: 'Arial', sans-serif;
+    display: none; 
+}

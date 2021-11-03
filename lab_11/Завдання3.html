@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab11</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body onload="createKeyboard_ua()">
+	<a href="index.html" class="button1">На початкову</a><br><br>
+	<center>
+		<div class="form">
+	        <textarea id="display" rows="7" cols="90" readonly></textarea>
+	        <div id="screenKeyboard"></div><br>
+	        <button type="button" onclick="createKeyboard_ua()">UA</button>
+	        <button type="button" onclick="clean()">Очистити</button>
+	        <button type="button" onclick="createKeyboard_en()">US</button>
+    	</div>
+	</center>
+
+	<script src="js/key.js"></script>
+</body>
+</html>

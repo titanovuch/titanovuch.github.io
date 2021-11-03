@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab11</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<a href="index.html" class="button1">На початкову</a><br><br>
+    <section class="main">
+ 
+		<form name="quiz" action="javascript:check();">
+		 
+			<div class="quizsection">
+			 
+			 
+			    <h2>Яке справжнє ім*я Лесі Українки?</h2>
+			     
+			    <div class="answer">
+			        <input name="q1" value="value1" id="value1" type="radio" checked="checked"> &lt;Лариса Косач&gt;
+			    </div>
+			 
+			    <div class="answer">
+			        <input name="q1" value="value2" id="value2" type="radio"> &lt;Марія Нагірна&gt;
+			    </div>
+			 
+			   
+			 
+			    
+			 
+			</div>
+			 
+			<div class="quizsection">
+			 
+			    <h2>Яка моя улюблений фрукт?</h2>
+			 
+			    <div class="answer">
+			        <input name="q2" value="value1" id="value1" type="radio" checked="checked"> &lt;Гранат&gt;
+			    </div>
+			 
+			    <div class="answer">
+			        <input name="q2" value="value2" id="value2" type="radio"> &lt;Ківі&gt;
+			    </div>
+			 
+			    <div class="answer">
+			        <input name="q2" value="value1" id="value3" type="radio"> &lt;Апельсин&gt;
+			    </div>
+			 
+			   
+			 
+			    
+			 
+			</div>
+
+			
+			    
+			 
+			
+
+			<div class="quizsection">
+			 
+			    <h2>Хто відкрив Америку? </h2>
+			 
+			    <div class="answer">
+			        <input name="q6" value="" id="ans2" type="text" required="required"> 
+			    </div>
+			
+			</div>
+			<br>
+			<input value="Submit" type="button" onclick="check()"> 
+			<input value="Reset" type="reset">
+		 
+		</form>
+ 
+</section>
+
+
+	<script src="js/quiz.js"></script>
+</body>
+</html>
